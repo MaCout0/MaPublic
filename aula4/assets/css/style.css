@@ -1,0 +1,30 @@
+body{
+	background-color: #8FBC8F; 
+}
+
+h1{
+	color: white;
+	font-size: 80%;
+	font-family: Verdana, courier
+}
+
+p{
+	color: rgba(20, 200, 120, .8);
+	font-family: "Comic Sans MS";
+	border-left: 1px solid #333;
+	border-top: 3px dashed yellow;
+	border-right: 5px double rgb(255, 0, 0);
+	border-bottom: 2px dotted purple;
+	padding: 30px 50px 10px 20px;
+	margin: 20px 35px 47.5px 10px;
+}
+
+/*id*/
+#azul{
+	color: blue;
+}
+
+/*class*/
+.vermelho{
+	color: red;
+}

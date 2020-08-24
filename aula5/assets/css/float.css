@@ -1,0 +1,23 @@
+body{
+	margin: 0;
+	height: 3000px;
+}
+
+div{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black; 
+	/*float: left;*/ 
+}
+
+.box1{
+	position: absolute;;
+	background: red;
+	z-index: 1;
+}
+
+.box2{
+	position: fixed;
+	background: yellow;
+	margin: 10px;
+}

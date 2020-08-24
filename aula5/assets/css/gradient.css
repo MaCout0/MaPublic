@@ -1,0 +1,25 @@
+body{
+	margin:0;
+}
+
+div{
+	height: 300px;
+	width: 300px;
+	background-color: red; /*para os navegadores que não suportam o gradient*/
+}
+
+#linear{
+	background: -webkit-linear-gradient(-90deg, red,yellow,green); /*safari*/
+	background: -moz-linear-gradient(-90deg, red,yellow,green); /*Mozilla Firefox*/
+	background: -ms-linear-gradient(-90deg, red,yellow,green); /*Microsoft*/
+	background: -o-linear-gradient(-90deg, red,yellow,green); /*Opera*/
+	background: -linear-gradient(-90deg, red,yellow,green); /*padrão*/
+}
+#radial{
+	margin-top: 20px;
+	background: -webkit-radial-gradient(red,yellow,green); /*safari*/
+	background: -moz-radial-gradient(red,yellow,green); /*Mozilla Firefox*/
+	background: -ms-radial-gradient(red,yellow,green); /*Microsoft*/
+	background: -o-radial-gradient(red,yellow,green); /*Opera*/
+	background: -radial-gradient(red,yellow,green); /*padrão*/
+}

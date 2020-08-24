@@ -1,0 +1,16 @@
+body{
+	margin: 0;
+}
+
+div{
+	width: 50%;
+	height: 200px;
+	background: blue;
+}
+
+@media only screen and (max-width: 480px){
+
+	div{
+		width: 100%;
+	}
+}

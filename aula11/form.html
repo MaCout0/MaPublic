@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<title>Formularios</title>
+	</head>
+	<body>
+
+		<form action="cadastro.php" target="blank" method="post">
+			
+			<fieldset>
+				
+				<legend>Informações</legend>
+
+				<label>Nome</label><br>
+				<input type="text" name="nome" value="João" disabled><br>
+
+				<input type="text" name="sobrenome" placeholder="sobrenome" maxlength="5"><br>
+
+				<input type="radio" name="sexo"  value="feminino" chaked>Feminino<br>
+				<input type="radio" name="sexo"  value="masculinino" >masculinino<br>
+				<input type="radio" name="sexo"  value="outros" >Outro<br><br>
+
+				<label>Irmãos</label><br>
+				<select name="irmaos">
+					<option value="0">0</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4+">4+</option>
+				</select><br><br>
+
+				<label>Descrição</label><br>
+				<textarea name="descricao" rows="10" readonly="true">asdadasdfsadfsadfa</textarea><br><br>
+
+				<label>Selecione as opções</label><br>
+				<input type="checkbox" name="op1" value="bicicleta">Bicicleta<br>
+				<input type="checkbox" name="op2" value="carro">Carro<br><br>
+
+				<input type="submit" value="Enviar">
+
+			</fieldset>
+
+		</form>
+
+	</body>
+</html>

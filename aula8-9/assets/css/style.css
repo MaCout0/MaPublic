@@ -57,7 +57,7 @@ nav .logo{
 	padding: 14px 16px;
 }
 
-nav.menu {
+nav .menu {
 	float: right;
 	color: #f2f2f2;
 	text-align: center;
@@ -180,11 +180,11 @@ footer {
 		width: 100%
 	}
 
-	nav.menu {
+	nav .menu {
 		display: block;
 	}
 
-	nav.menu-link {
+	nav .menu-link {
 		display: none;
 		width: 100%;
 		text-align: right;

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+
+		<script type="text/javascript">
+			
+			function Soma(a, b) {
+				return a + b;
+			}
+
+			function Sub(a, b) {
+				return a - b;
+			}
+
+		</script>
+	</head>
+	<body>
+
+		<p id="soma">Soma</p>
+
+		<button onclick="document.getElementById('soma').innerHTML=Soma(5, 2)">Executar soma</button>
+
+		<p id="sub">Subtração</p>
+
+		<button onclick="document.getElementById('sub').innerHTML=Sub(5, 2)">Executar subtração</button>
+
+	</body>
+</html>

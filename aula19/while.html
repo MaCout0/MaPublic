@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+
+		<p id="teste"></p>
+
+		<script type="text/javascript">
+			
+			var text = "";
+			var i = 0;
+
+			while(i <= 10) {
+				text += "<br>O número é " + i;
+				i++
+			}
+
+			console.log(text);
+
+			document.getElementById('teste').innerHTML = text;
+
+		</script>
+
+	</body>
+</html>

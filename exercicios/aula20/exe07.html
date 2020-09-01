@@ -1,0 +1,47 @@
+<!-- Na instrução switch está faltando um case para Maça". Adicione ele: -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+
+		<input id="frutas" type="text" value="Maçã">
+
+		<button onclick="checarFruta()">Checar Fruta</button>
+
+		<p id="resultado"></p>
+
+		<script>
+
+			function checarFruta() {
+
+				var texto;
+				var fruta = document.getElementById("frutas").value;
+
+				switch(fruta) {
+
+			    	case "Banana":
+			    		texto = "Temos Banana!";
+			    		break;
+
+					case "Laranja":
+						texto = "Temos Laranja!.";
+						break;
+
+					case "Macã"
+			      		texto = "Temos Maça!.";
+			      		break;
+
+			    	default:
+			      		texto = "Não temos " + fruta;
+			  	}
+
+			  document.getElementById("resultado").innerHTML = texto;
+			}
+
+
+		</script>
+
+	</body>
+</html>

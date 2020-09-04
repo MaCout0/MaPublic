@@ -1,0 +1,48 @@
+<!-- Crie um banner rotativo com 3 imagens usando o bootstrap -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/libs/bootstrap/css/bootstrap.min.css">
+</head>
+<body> 
+
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width: 500px; height: 320px;">
+		<!-- Escreva seu código aqui -->
+		<ol class="carousel-indicators">
+   			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    		<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    		<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+      			<img class="d-block w-100" src="assets/img/light.jpg" alt="Primeiro Slide">
+    		</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="assets/img/light.jpg" alt="Segundo slide">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="assets/img/light.jpg" alt="Terceiro slide">
+			</div>
+			<!-- <div class="carousel-item active">
+				<img class="d-block w-100" src="assets/img/01.jpg" alt="Quarto slide">
+			</div> -->
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previou</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+   			 <span class="sr-only">Próximo</span>
+  		</a>
+	</div>
+
+	<script src="assets/libs/jquery-3.5.1.min.js"></script>
+	<!-- <script src="assets/libs/popper.min.js"></script> -->
+	<script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>

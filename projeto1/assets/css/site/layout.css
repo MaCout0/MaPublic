@@ -1,5 +1,5 @@
 header {
-	background-color: #333;
+	background-color: #007f5f;
 	min-height: 53.64px;
 }
 
@@ -12,10 +12,29 @@ header a:hover {
 	text-decoration: none;
 }
 
-header .links a:hover {
-	background-color: lightgrey;
+header .links a:hover {	
+	background-color: #008000;
 	border-radius: 5px;
-	color: #333!important;
+	color: #ffff3f!important;
+}
+
+header .log {
+	width: 35px;
+	transition: .3s;
+	filter: grayscale(100%);
+}
+
+footer {
+    /*position: absolute;*/
+    margin-bottom: 0px;
+    width:100%;
+    background: #007f5f;
+}
+
+footer .fab {
+	color: #fff;
+	font-size: 45px;
+	margin-bottom: 20px;
 }
 
 /*reponsivo*/
@@ -38,6 +57,19 @@ header .links a:hover {
 		text-align: right;
 		width: 100%;
 		float: none!important;
+	}
+
+	footer {
+		position: initial;
+	}
+
+	footer .link-responsive {
+		text-align: center!important;
+		margin-bottom: 30px;
+	}
+
+	footer .link-responsive a {
+		margin-left: 0!important;
 	}
 
 }

@@ -1,0 +1,17 @@
+.home#content-home .banner {
+	height: 600px;
+	width: 100%;
+	background-image: url(../../img/717.jpg);
+	background-size: cover;
+	background-position: center center; 
+	background-repeat: no-repeat;
+	color: #fff;
+	text-shadow: 2px 2px 5px #333;
+	padding-top: 160px; 
+
+	
+}
+
+.home#content-home .about {
+	background-color: #b1a7a6;
+}

@@ -1,0 +1,45 @@
+<!-- ng-options="x for x in names" -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body ng-app="app">
+
+		<div ng-controller="dropdown">
+
+			<select ng-model="selectedName" >
+				<option ng-repeat="x in names">{{ x }}</option>
+			</select>
+			
+		</div>
+
+		<div ng-controller="cars">
+
+			<select ng-model="selectedCar" ng-options="x.model for x in car">
+				<!-- <option ng-repeat="x in car" ng- ng-value="{{ x }}">{{ x.model }}</option> -->
+			</select>
+
+			<h1>Você selecionou um {{selectedCar.model}} de cor {{ selectedCar.color }}</h1>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+		<script type="text/javascript">
+			var app = angular.module('app', []);
+
+			app.controller('dropdown', function ($scope) {
+				$scope.names = ['Matheus', 'Gabriel', 'Gustavo'];
+			});
+
+			app.controller('cars', function ($scope) {
+				$scope.car = [
+					{model: "koenigsegg Regera", color: "Verde" },
+					{model: 'Ferrari 812 Superfast', color: 'vermelho' },
+					{model: 'Lamborghini Veneno', color: 'Grafite' },
+				];
+			});
+		</script>
+
+	</body>
+</html>

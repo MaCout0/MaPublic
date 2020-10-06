@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body ng-app>
+
+		<div ng-init="nomes = [
+			{name: 'João', country: 'Brasil'},
+			{name: 'Hege', country: 'Sweden'},
+			{name: 'Kai', country: 'Denmark'}
+		]">
+			<ul>
+				<li ng-repeat="x in nomes">
+					{{ x.name + ' ' + x.country }}
+				</li>
+			</ul>
+		</div>
+
+		<script defer src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+
+	</body>
+</html>

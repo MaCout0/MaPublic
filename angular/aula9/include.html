@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="app" lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<title>Includes</title>
+
+	</head>
+	<body>
+
+		<div ng-include="https://sso.acesso.gov.br/login?client_id=contas.acesso.gov.br"></div>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+		<script type="text/javascript">
+			var app = angular.module('app', []);
+
+			app.config(function ($sceDeLegateProvider) {
+				$sceDeLegateProvider.resourceUrlWhiteList([
+					'https://sso.acesso.gov.br/login?client_id=contas.acesso.gov.br'
+				]);
+			});
+		</script>
+
+	</body>
+</html>

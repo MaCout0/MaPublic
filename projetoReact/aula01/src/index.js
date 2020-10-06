@@ -3,36 +3,33 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './mysass.scss';
 
-class Car extends React.Component{
-    constructor(props) {
-        super(props);
-        this.state = {
-            marca: 'Ford',
-            carro: 'Ká',
-            cor: 'Azul',
-            ano:2008,
-        };
+class Header extends React.Component {
+        render() {
+            const style = {
+                color: 'green',
+                backgroundColor: 'DodgerBlue',
+                padding: '10px',
+                fontSize1: '30px'
+            }
+
+            return (
+                <div>
+                    <h1 style={{color: "red", backgroundColor: "blue"}}>Meu css inline</h1>
+
+                    <p style={style}>Meu css interno</p>
+
+                    <p className="teste">Meu css externo: teste</p>
+
+                    <span> Tests SCSS</span>
+                </div>
+            );
+        }
     }
-
-    changeColor = () => {
-        this.setState({cor: "Vermelho"})
-    }
-    render(){
-        return (
-            <div>
-                <h1>Meu carro é um {this.state.marca} {this.state.carro}</h1>
-                <p>Ele é de {this.state.ano} e é {this.state.cor}</p>
-                <button onClick={this.changeColor}>Mudar a cor</button>
-            </div>
-        )
-    }
-}
-
-
 
 ReactDOM.render(
-    <Car />,
+    <Header />,
      document.getElementById('root')
 );
 

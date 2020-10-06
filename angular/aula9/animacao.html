@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html ng-app="app" lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<title>Animações com angular</title>
+
+		<style type="text/css">
+			/*div {
+				transition: all linear 0.5s;
+				background-color: lightblue;
+				height: 100px;
+				width: 100px;
+				position: relative;
+				top: 0;
+				left: 0;
+			}
+
+			.ng-hide {
+				height: 0;
+				width: 0;
+				background-color: transparent;
+				top: -200px;
+				left: 200px;
+			}*/
+
+			@keyframes change {
+				from {
+					height: 100px;
+				} to {
+					height: 0;
+				}
+			}
+
+			div {
+				height: 100px;
+				background-color: lightblue;
+			}
+
+			div.ng-hide {
+				animation: 0.5s change;
+			}
+
+			div.ng-show {
+				animation: 0.5s change;
+			}
+		</style>
+	</head>
+	<body>
+
+		<input type="checkbox" ng-model="check">
+
+		<div ng-hide="check"></div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular-animate.js"></script>
+		<script type="text/javascript">
+			var app = angular.module('app', ['ngAnimate']);
+
+			// app.controller();
+		</script>
+
+	</body>
+</html>

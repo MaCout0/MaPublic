@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body ng-app="app">
+
+		<div ng-controller="mouseCtrl">
+
+			<h3 ng-mousemove="cordFunc($event)">Passe o mouse aqui</h3>
+
+			<h4>Cordenada x: {{ x }}<br> Cordenada y: {{ y }}</h4>
+
+			<h3 ng-click="showMeFunc()">Clique aqui</h3>
+
+			<div ng-show="showMe">
+				<h2>Menu:</h2>
+				<div>Pizza</div>
+				<div>Lasanha</div>
+				<div>Pastel</div>
+				<div>Chopp</div>
+			</div>
+
+			<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+			<script type="text/javascript">
+				var app = angular.module('app', []);
+
+				app.controller('mouseCtrl', function ($scope) {
+					$scope.cordFunc = function ($event) {
+						$scope.x = event.clientX;
+						$scope.y = event.clientY;
+					};
+					$scope.showMe=false;
+					$scope.showMeFunc = function () {
+						$scope.showMe = !$scope.showMe;
+					}
+
+				});
+			</script>
+
+		</div>
+
+
+	</body>
+</html>

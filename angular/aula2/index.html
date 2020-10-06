@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<title> verificação com angular</title>
+	</head>
+	<body ng-app>
+
+		<form name="myForm">
+			Email:
+			<input type="email" name="myAddress" ng-model="text">
+			<span ng-show="myForm.myAddress.$error.email">Endereço de e-mail invalido</span>
+		</form>
+
+		<form name="formMy">
+			Input: 
+			<input type="text" name="myInput" ng-model="myInput" required>
+		</form>
+
+		<p>O input é: <b>{{ formMy.myInput.$valid }}</b></p>
+
+		<script defer src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+
+	</body>
+</html>

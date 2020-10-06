@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<style type="text/css">
+			table, th, td {
+				border: 1px solid grey;
+				border-collapse: collapse;
+				padding: 5px;
+			}
+
+			/*table tr:nth-child(odd) {
+				background-color: #f1f1f1;
+			}
+			table tr:nth-cjild(even) {
+				background-color: #fff;
+			}*/
+		</style>
+		<meta charset="utf-8">
+		<title>Banco</title>
+	</head>
+	<body ng-app="banco">
+
+		<div ng-controller="customersCtrl">
+			<table border="1">
+				<tr ng-repeat="x in names | orderBy: 'country'">
+					<td ng-if="$odd">{{ $index + 1 }}</td>
+					<td ng-if="$even" style="background-color: #f1f1f1">{{ $index + 1 }}</td>
+					<td ng-if="$odd" >{{ x.name }}</td>
+					<td ng-if="$even" style="background-color: #f1f1f1">{{ x.name }}</td>
+					<td ng-if="$odd">{{ x.country | uppercase }}</td>
+					<td ng-if="$even" style="background-color: #f1f1f1">{{ x.country | uppercase }}</td>
+				</tr>
+			</table>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+		<script type="text/javascript">
+			var app = angular.module('banco', []);
+
+			app.controller('customersCtrl', function ($scope, $http) {
+				$http.get('pessoas_paises.php').then(function (response) {
+					console.log(response);
+					$scope.names = response.data.records;
+				});
+			});
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<title> Serviços Angular</title>
+	</head>
+	<body ng-app="services">
+
+		<!-- 1 -->
+		<div ng-controller="urlCtrl">
+			<p>A URL da página é: <b>{{ myUrl }}</b></p>
+		</div>
+
+		<!-- 2 -->
+		<div ng-controller="intervalCtrl">
+			<p> As horas são: <b>{{ theTime }}</b></p>
+		</div>
+
+		<!-- 3 -->
+		<div ng-controller="timeoutCtrl">
+			<p> Cabeçalho: <b>{{ header }}</b></p>
+		</div>
+
+		<!-- 4 -->
+		<div ng-controller="httpCtrl">
+			<p> 
+				Mensagem: <b>{{ welcome }}</b><br>
+				status: <b>{{ statuscode }}</b><br>
+				statusText: <b>{{ statustext }}</b>
+			</p>
+			<h1>{{content}}</h1>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+		<script type="text/javascript">
+			var app = angular.module('services', []);
+
+			app.controller('urlCtrl', function($scope, $location){
+				$scope.myUrl = $location.absUrl();
+			});
+
+			app.controller('intervalCtrl', function($scope, $interval){
+				$scope.theTime = new Date().toLocaleTimeString();
+				$interval(function(){
+					$scope.theTime = new Date().toLocaleTimeString();
+				}, 1000);
+			});
+
+			app.controller('timeoutCtrl', function ($scope, $timeout) {
+				$scope.header = 'Olá';
+				$timeout(function () {
+					$scope.header = "Como você está hoje"
+				}, 2000);
+			});
+
+			app.controller('httpCtrl', function ($scope, $http) {
+				$http.get("welcome.html").then(function (response) {
+					$scope.welcome = response.data;
+					$scope.content = response.data;
+					$scope.statuscode = response.status;
+					$scope.statustext = response.statusText;
+				}, function (response) {
+					$scope.content = 'Algo deu errado';
+				});
+			});
+		</script>
+
+	</body>
+</html>

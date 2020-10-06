@@ -1,4 +1,4 @@
-<!-- https://sustentabilidade.estadao.com.br/blogs/ambiente-se/planeta-em-degradacao-pode-trazer-milhoes-de-mortes-ate-2050-alerta-onu/#:~:text=A%20situa%C3%A7%C3%A3o%20ambiental%20em%20todo,consumo%2C%20agravados%20pelas%20mudan%C3%A7as%20clim%C3%A1ticas.&text=Outra%20causa%20de%20um%20grande,prematuras%20em%20todo%20o%20mundo. -->
+<!-- https://vidaplenaebemestar.com.br/inspiracao/sua-essencia/autoconhecimento-10-perguntas-para-comecar-sua-jornada -->
 <div class="home" id="content-home">
 
     <section class="banner">
@@ -6,9 +6,9 @@
         <div class="container">
 
             
-            <h2 class="text-center pt-5"> Título </h2>
+            <h2 class="text-center pt-5"> Você se Conhece? </h2>
 
-            <p class="text-center"> Texto qualquer </p>
+            <p class="text-center"> Vamos te levar ao centro de si mesmo!! </p>
 
         </div>
 
@@ -18,15 +18,12 @@
 
     	<div class="container">
 
-    		<h3 class="text-center py-3 text-light">Título</h3>
+    		<h3 class="text-center py-3 text-light">Auto Conhecimento</h3>
 
     		<p class="text-justify pb-5 m-0 text-light">
-    			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    			Você não está satisfeito com sua vida? Não faz a mínima ideia de como chegou onde chegou e pior, não sabe o que fazer para mudar e nem para onde ir? Se você pensa em virar esse jogo, está na hora de investir algum tempo e energia no autoconhecimento.<br>
+
+                Dar-se esse tempo de reflexão vai te ajudar a ter foco e autocontrole para percorrer o caminho que te levará onde deseja. Afinal de contas, como diria o gato de Alice no País das Maravilhas, “para quem não sabe para onde vai, qualquer caminho serve”.
     		</p>
 
     	</div>

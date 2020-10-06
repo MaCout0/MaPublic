@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<title>Verificação em Angular</title>
+	</head>
+	<body ng-app="appForm">
+
+		<div ng-controller="formCtrl">
+
+			<form>
+				<input type="text" ng-model="firstName">
+				<h1>{{ firstName }}</h1>
+
+				<input type="checkbox" ng-model="verify">
+				<h1 ng-show="verify">Cabeçalho</h1><br>
+
+				<!-- <input type="radio" ng-model="topic" value="dogs">Cachorros<br>
+				<input type="radio" ng-model="topic" value="cats">Gatos<br>
+				<input type="radio" ng-model="topic" value="rabbits">Coelhos<br> -->
+
+				<br>
+
+				<select ng-model="topic">
+					<option value="" hidden selected>Selecione um tópico</option>
+					<option value="dogs">Cachorros</option>
+					<option value="cats">Gatos</option>
+					<option value="rabbits">Coelhosos</option>
+				</select>
+
+				<div ng-switch="topic">
+
+					<div ng-switch-when="dogs">
+						<h1>Cachorros</h1>
+						<p>Adote Cachorrinhos</p>
+					</div>
+
+					<div ng-switch-when="cats">
+						<h1>Gatos</h1>
+						<p>Adote Gatinhos</p>
+					</div>
+
+					<div ng-switch-when="rabbits">
+						<h1>Coelhos</h1>
+						<p>Adote Coelhinhos</p>
+					</div>
+					
+				</div>
+			</form>
+
+			
+			
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+		<script type="text/javascript">
+			var app = angular.module('appForm', []);
+
+			app.controller('formCtrl', function ($scope) {
+				$scope.firstName = 'Matheus';
+			});
+		</script>
+
+	</body>
+</html>

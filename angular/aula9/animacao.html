@@ -31,6 +31,14 @@
 				}
 			}
 
+			@keyframes changed {
+				from {
+					height: 0;
+				} to {
+					height: 100px;
+				}
+			}
+
 			div {
 				height: 100px;
 				background-color: lightblue;
@@ -40,8 +48,8 @@
 				animation: 0.5s change;
 			}
 
-			div.ng-show {
-				animation: 0.5s change;
+			div {
+				animation: 0.5s changed;
 			}
 		</style>
 	</head>

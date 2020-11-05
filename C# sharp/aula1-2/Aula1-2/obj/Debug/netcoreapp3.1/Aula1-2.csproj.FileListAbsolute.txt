@@ -1,0 +1,13 @@
+C:\xampp\htdocs\Matheuscouto\testeAula\C# sharp\aula1-2\Aula1-2\bin\Debug\netcoreapp3.1\Aula1-2.exe
+C:\xampp\htdocs\Matheuscouto\testeAula\C# sharp\aula1-2\Aula1-2\bin\Debug\netcoreapp3.1\Aula1-2.deps.json
+C:\xampp\htdocs\Matheuscouto\testeAula\C# sharp\aula1-2\Aula1-2\bin\Debug\netcoreapp3.1\Aula1-2.runtimeconfig.json
+C:\xampp\htdocs\Matheuscouto\testeAula\C# sharp\aula1-2\Aula1-2\bin\Debug\netcoreapp3.1\Aula1-2.runtimeconfig.dev.json
+C:\xampp\htdocs\Matheuscouto\testeAula\C# sharp\aula1-2\Aula1-2\bin\Debug\netcoreapp3.1\Aula1-2.dll
+C:\xampp\htdocs\Matheuscouto\testeAula\C# sharp\aula1-2\Aula1-2\bin\Debug\netcoreapp3.1\Aula1-2.pdb
+C:\xampp\htdocs\Matheuscouto\testeAula\C# sharp\aula1-2\Aula1-2\obj\Debug\netcoreapp3.1\Aula1-2.csprojAssemblyReference.cache
+C:\xampp\htdocs\Matheuscouto\testeAula\C# sharp\aula1-2\Aula1-2\obj\Debug\netcoreapp3.1\Aula1-2.AssemblyInfoInputs.cache
+C:\xampp\htdocs\Matheuscouto\testeAula\C# sharp\aula1-2\Aula1-2\obj\Debug\netcoreapp3.1\Aula1-2.AssemblyInfo.cs
+C:\xampp\htdocs\Matheuscouto\testeAula\C# sharp\aula1-2\Aula1-2\obj\Debug\netcoreapp3.1\Aula1-2.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Matheuscouto\testeAula\C# sharp\aula1-2\Aula1-2\obj\Debug\netcoreapp3.1\Aula1-2.dll
+C:\xampp\htdocs\Matheuscouto\testeAula\C# sharp\aula1-2\Aula1-2\obj\Debug\netcoreapp3.1\Aula1-2.pdb
+C:\xampp\htdocs\Matheuscouto\testeAula\C# sharp\aula1-2\Aula1-2\obj\Debug\netcoreapp3.1\Aula1-2.genruntimeconfig.cache

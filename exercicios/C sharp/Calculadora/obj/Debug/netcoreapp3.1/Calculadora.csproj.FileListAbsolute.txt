@@ -1,0 +1,13 @@
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Calculadora\bin\Debug\netcoreapp3.1\Calculadora.exe
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Calculadora\bin\Debug\netcoreapp3.1\Calculadora.deps.json
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Calculadora\bin\Debug\netcoreapp3.1\Calculadora.runtimeconfig.json
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Calculadora\bin\Debug\netcoreapp3.1\Calculadora.runtimeconfig.dev.json
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Calculadora\bin\Debug\netcoreapp3.1\Calculadora.dll
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Calculadora\bin\Debug\netcoreapp3.1\Calculadora.pdb
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Calculadora\obj\Debug\netcoreapp3.1\Calculadora.csprojAssemblyReference.cache
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Calculadora\obj\Debug\netcoreapp3.1\Calculadora.AssemblyInfoInputs.cache
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Calculadora\obj\Debug\netcoreapp3.1\Calculadora.AssemblyInfo.cs
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Calculadora\obj\Debug\netcoreapp3.1\Calculadora.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Calculadora\obj\Debug\netcoreapp3.1\Calculadora.dll
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Calculadora\obj\Debug\netcoreapp3.1\Calculadora.pdb
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Calculadora\obj\Debug\netcoreapp3.1\Calculadora.genruntimeconfig.cache

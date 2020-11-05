@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Alerta
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content
+      pulling-icon="chevron-down-circle-outline"
+      pulling-text="Pull to refresh"
+      refreshing-spinner="circles"
+      refreshing-text="Recarregando...">
+    </ion-refresher-content>
+  </ion-refresher>
+
+  <div class="ion-padding">
+    <ion-button expand="block" (click)="showAlert()">Alerta</ion-button>
+  </div>
+
+</ion-content>

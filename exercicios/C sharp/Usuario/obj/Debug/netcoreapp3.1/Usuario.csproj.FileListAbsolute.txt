@@ -1,0 +1,13 @@
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Usuario\bin\Debug\netcoreapp3.1\Usuario.exe
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Usuario\bin\Debug\netcoreapp3.1\Usuario.deps.json
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Usuario\bin\Debug\netcoreapp3.1\Usuario.runtimeconfig.json
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Usuario\bin\Debug\netcoreapp3.1\Usuario.runtimeconfig.dev.json
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Usuario\bin\Debug\netcoreapp3.1\Usuario.dll
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Usuario\bin\Debug\netcoreapp3.1\Usuario.pdb
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Usuario\obj\Debug\netcoreapp3.1\Usuario.csprojAssemblyReference.cache
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Usuario\obj\Debug\netcoreapp3.1\Usuario.AssemblyInfoInputs.cache
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Usuario\obj\Debug\netcoreapp3.1\Usuario.AssemblyInfo.cs
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Usuario\obj\Debug\netcoreapp3.1\Usuario.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Usuario\obj\Debug\netcoreapp3.1\Usuario.dll
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Usuario\obj\Debug\netcoreapp3.1\Usuario.pdb
+C:\xampp\htdocs\Matheuscouto\testeAula\exercicios\C sharp\Usuario\obj\Debug\netcoreapp3.1\Usuario.genruntimeconfig.cache

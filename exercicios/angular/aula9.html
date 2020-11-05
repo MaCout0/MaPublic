@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<style>
+		header {
+			text-align: 
+		}
+	</style>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular-animate.js"></script>
+
+	<body ng-app="myApp">
+
+		<header>
+			<p><a href="#/!">Main</a></p>
+
+			<a href="#!banana">Banana</a>
+			<a href="#!tomate">Tomate</a>
+		</header>
+
+		<footer>
+			<p>Clique nesse link para mudar o conteudo</p>
+
+			<p>O HTML mostrado na diretiva ng-view eh gravado na propriedade template do metodo $routeProvider .when.</p>
+		</footer>
+
+		<div ng-view></div>
+
+		<script type="text/javascript">
+			var app = angular.module("myApp", ["ngRoute"]);
+			app.config(function($routeProvider) {
+				$routeProvider
+				.when("/", (
+					template: "<h1>Main</h1><p>Clique nesse link para mudar o conteudo</p>"
+				))
+				.when("/banana", (
+					template: "<h1>Banana</h1><p>Bananas contain around 75% water.</p>"
+				))
+				.when("/tomate",(
+					template: "<h1>Banana</h1><p>Bananas contain around 95% water.</p>"
+				));
+			});
+		</script>
+
+	</body>
+</html>

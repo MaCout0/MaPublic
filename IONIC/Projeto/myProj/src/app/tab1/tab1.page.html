@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content
+      pulling-icon="chevron-down-circle-outline"
+      pulling-text="Pull to refresh"
+      refreshing-spinner="circles"
+      refreshing-text="Recarregando...">
+    </ion-refresher-content>
+  </ion-refresher>
+
+  <div>
+    <h3 class="ion-text-center"> Seja bem vindo. <br> Este é meu primeiro app em Ionic</h3>
+
+    <p class="ion-text-justify">
+      Ele contém três telas: <br>
+      Home: tela inicial.<br>
+      Lista:com uma lista simples e searchbar.<br>
+      Alerta: com um botão de alerta
+    </p>
+  </div>
+</ion-content>
+
+
+

@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Projeto"] = "Registro";
+}
+
+<!--https://medium.com/henrique-dezani/criando-uma-aplica%C3%A7%C3%A3o-web-com-microsoft-asp-net-mvc-e-c-5c145554cfeb-->
+<!--https://www.codeproject.com/Articles/43438/Connect-C-to-MySQL-->
+
+
+<div class="contact">
+    <section class="inf">
+        <div class="container pt-4">
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <form name="formSignup" action="enviaContato" method="post">
+
+                        <div class="form-group">
+                            <label>Nome de Usuario</label><br>
+                            <input class="form-control" name="name" placeholder="Digite um nome de usuario">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Email</label><br>
+                            <input class="form-control" type="email" name="email" placeholder="Digite seu E-mail">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Senha</label><br>
+                            <input class="form-control" type="password" name="senha" placeholder="Digite sua Senha">
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary" id="btnSubmitContact">Registrar</button>
+                        </div>
+
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+</div>
+
